@@ -6,16 +6,12 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: black;
   position: relative;
-  /* padding: 5px 20px; */
 }
 
 .ball{
   height: 15px;
   width: 15px;
-  background-color: #ffffff;
   border-radius: 50%;
   position: absolute;
-  left: 1px;
 }
