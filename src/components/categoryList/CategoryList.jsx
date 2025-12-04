@@ -24,7 +24,7 @@ const CategoryList = () => {
           {/* category two */}
           <Link href="/blog?cat=style" className={`${styles.category} ${styles.politicalEconomy}`}>
             <Image 
-              src='/style.png' 
+              src='/food.png' 
               alt='' 
               width={32} 
               height={32} 
@@ -37,7 +37,7 @@ const CategoryList = () => {
           {/* category three */}
           <Link href="/blog?cat=style" className={`${styles.category} ${styles.revolutionaryMovements}`}>
             <Image 
-              src='/style.png' 
+              src='/travel.png' 
               alt='' 
               width={32} 
               height={32} 
@@ -50,7 +50,7 @@ const CategoryList = () => {
           {/* category four */}
           <Link href="/blog?cat=style" className={`${styles.category} ${styles.organization}`}>
             <Image 
-              src='/style.png' 
+              src='/culture.png' 
               alt='' 
               width={32} 
               height={32} 
@@ -63,7 +63,7 @@ const CategoryList = () => {
           {/* category five */}
           <Link href="/blog?cat=style" className={`${styles.category} ${styles.news}`}>
             <Image 
-              src='/style.png' 
+              src='/coding.png' 
               alt='' 
               width={32} 
               height={32} 
