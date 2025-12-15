@@ -3,6 +3,7 @@ import styles from "./menu.module.css"
 import Link from 'next/link'
 import Image from 'next/image'
 import MenuPosts from '../menuPosts/MenuPosts'
+import MenuCategories from '../menuCategories/MenuCategories'
 
 const Menu = () => {
   return (
@@ -17,37 +18,7 @@ const Menu = () => {
       {/* Menu Categories */}
       <h2 className={styles.subtitle}>Discover by topic</h2>
       <h1 className={styles.title}>Categories</h1>
-      <div className={styles.itemss}>
-        <Link href="/blog?cat=style" 
-          className={`${styles.category} 
-          ${styles.theory}`}>
-          Theory
-        </Link>
-
-        <Link href="/blog?cat=style" 
-          className={`${styles.category} 
-          ${styles.politicalEconomy}`}>
-          Political Economy
-        </Link>
-
-        <Link href="/blog?cat=style" 
-          className={`${styles.category} 
-          ${styles.revolutionaryMovements}`}>
-          Revolutionary Movements
-        </Link>
-
-        <Link href="/blog?cat=style" 
-          className={`${styles.category} 
-          ${styles.organization}`}>
-          Organization
-        </Link>
-
-        <Link href="/blog?cat=style" 
-          className={`${styles.category} 
-          ${styles.news}`}>
-          News & Commentary
-        </Link>
-      </div>
+      <MenuCategories/>
 
       {/* Editor's Pick */}
       <h2 className={styles.subtitle}>{"Chosen by the Editor"}</h2>

@@ -20,13 +20,6 @@
   flex-direction: column;
   gap: 35px;
 }
-.itemss {
-  margin-top: 35px;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  margin-bottom: 30px;
-}
 
 .item {
   display: flex;
