@@ -9,7 +9,7 @@ const AuthLinks = () => {
   const [open,SetOpen] = useState(false);
 
   // temporary
-  const status = "notauthenticated"
+  const status = "authenticated"
   return (
     <>
       {status === "notauthenticated" ? (
